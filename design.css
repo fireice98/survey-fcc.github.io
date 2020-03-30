@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+html {
+    background-color: #464e47;
+    color: #111; 
+    font-family: Arial, sans-serif;
+}
+header {
+    text-align: center;
+    margin: 5% auto 5% auto
+    color: black;
+}
+.text-center {
+    color: #a3c4bc;
+}
+#survey-form {
+    text-align: center;
+    background-color: rgba(163,196,188,.4);
+    margin: auto 30% 5% 30%;
+    padding: 1%;
+    border-radius: 5% 5%;
+}
+.form-group {
+    margin: 2% 7% 2% 7%;
+    color: black;
+    background-color: rgba(163,196,188,.7);
+    border-radius: 5% 3%;
+    padding: .5% .5% .5% .5%;
+}
+.form-control {
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    padding: 3%x 5% 3% 5%;
+    
+}
+label {
+    font-weight: bold;
+    padding-top: 2px;
+}
+input {
+   color: black;
+   background-color: white;
+   opacity: 100%;
+   border: 1%;
+    border-color: black;
+    margin: 1% auto 1% auto;
+    min-width: 90%;
+   width: 100%;
+   resize: vertical;
+}
+textarea {
+    width: 100%;
+    height: auto;
+    margin: 1% auto 1% auto;
+    
+}
+select {
+    margin: 1% auto 1% auto;
+     min-width: 70%;
+   width: 80%;
+   resize: vertical;
+}
+#submit {
+    margin: 1% auto 1% auto;
+    font-weight: bold;
+    width: 90%;
+    height: 90%; 
+    background: rgba(191,215,181,.9); 
+    border-radius: 1%;
+    margin: 1%;
+    cursor: pointer;
+}
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  
+  min-height: 1.25%;
+  min-width: 1.25%;
+}
+input-textarea {
+  min-width: 90%;
+  width: 100%;
+  resize: vertical;
+  padding: auto 5% auto 5%;
+}
+@media screen and (max-width: 800px) {
+   #survey-form {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    margin: 0px 0px 0px 0px;
+    }
+
+
+
+
